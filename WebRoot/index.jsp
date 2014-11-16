@@ -15,7 +15,7 @@
 <HTML>
 <HEAD>
 <meta property="wb:webmaster" content="c75503c46fc2a030" />
-<TITLE>用户登录</TITLE>
+<TITLE>管理员用户登录</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=utf-8">
 <LINK href="view/images/public.css" type=text/css rel=stylesheet>
 <LINK href="view/images/login.css" type=text/css rel=stylesheet>
