@@ -48,9 +48,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 								<ul>
 									<li class="active"><a href="#">home</a></li>
 									<li><a href="#">主 页</a></li>
-									<li href="#services" class="scroll"><a href="#">功能</a></li>
-									<li id="address"><a href="#">项目地址</a></li>
-									<li id="us"><a href="#">联系我们</a></li>
+									<li href="#services" class="scroll"><a href="#">功 能</a></li>
+									<li id="address"><a href="#">项目的地 址</a></li>
+									<li id="us"><a href="#">来联系我 们</a></li>
 								</ul>
 								<div class="cl">&nbsp;</div>
 					</nav>
@@ -120,7 +120,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<div class="slide-cnt">
 								<h4>问 卷 展 示</h4>
 								<h2>Just Like That</h2>
-								<p>《大学生活过得怎么样》的问卷展示 ！</p>
+								<p>《大学生活过得怎么样》 的问卷展示 ！</p>
 							</div>
 							<img src="images/preview.png" alt="" />
 						</li>
@@ -129,7 +129,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<div class="slide-cnt">
 								<h4>编 辑 问 题</h4>
 								<h2>Just Like That</h2>
-								<p>编辑问题包括：问题的类型、问题的选项、选项的分数等。</p>
+								<p>编辑问题包括：问题的类型、 问题的选项、 选项的分数等。</p>
 							</div>
 							<img src="images/hello.png" alt="" />
 						</li>
@@ -179,7 +179,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 
 					<div class="col">
-						<h3>欢迎参加我们的项目</h3>
+						<h3>欢迎您参加我们的项目</h3>
 						<img src="images/col-img.png" alt="" class="left"/>
 						<h5>此项目完全开源可以在github上找到我们的项目. </h5>
 						<div class="cl">&nbsp;</div>
