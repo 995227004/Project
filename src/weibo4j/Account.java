@@ -92,6 +92,10 @@ public class Account extends Weibo {
 			String capital) throws WeiboException {
 		return School.constructSchool(client.get(
 				WeiboConfig.getValue("baseURL")
+				new Privacy(client.get(WeiboConfig.getValue("baseURL") 
+				+ "account/get_privacy.json", access_token)); 
+	} 
+
 						+ "account/profile/school_list.json",
 				new PostParameter[] { new PostParameter("province", province),
 						new PostParameter("capital", capital) }, access_token));
