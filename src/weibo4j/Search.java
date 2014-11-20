@@ -99,6 +99,8 @@ public class Search extends Weibo {
 	 * @since JDK 1.5
 	 */
 	public JSONArray searchSuggestionsCompanies(String q, int count)
+	
+				new PostParameter[] { new PostParameter("q", q),
 			throws WeiboException {
 		return client.get(
 				WeiboConfig.getValue("baseURL")
@@ -146,6 +148,7 @@ public class Search extends Weibo {
 			throws WeiboException {
 		return client.get(
 				WeiboConfig.getValue("baseURL")
+				stParameter[] { new PostParameter("q", q) },
 						+ "search/suggestions/apps.json",
 				new PostParameter[] { new PostParameter("q", q),
 						new PostParameter("count", count) }, access_token)
@@ -168,6 +171,7 @@ public class Search extends Weibo {
 			throws WeiboException {
 		return SchoolSearch
 				.constructSchoolSearch(client.get(
+					
 						WeiboConfig.getValue("baseURL")
 								+ "search/suggestions/schools.json",
 						new PostParameter[] { new PostParameter("q", q) },
@@ -214,9 +218,7 @@ public class Search extends Weibo {
 	 */
 	public List<SchoolSearch> searchSuggestionsSchools(Map<String, String> map)
 			throws WeiboException {
-		PostParameter[] parList = ArrayUtils.mapToArray(map);
-		return SchoolSearch.constructSchoolSearch(client.get(
-				WeiboConfig.getValue("baseURL")
+		PostParameter[] parList = ArraystParameter[] { new PostParameter("q", q) },
 						+ "search/suggestions/schools.json", parList, access_token));
 	}
 
