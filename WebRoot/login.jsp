@@ -134,15 +134,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 							<img src="images/hello.png" alt="" />
 						</li>
 
-						<li id="img8">
-							<div class="slide-cnt">
-								<h4>Heading Title Goes</h4>
-								<h2>Just Like That</h2>
-								<p>Acor porta mi, non venenatis augue imperdiet quis. Nam faucibus, felis ut suscipit vulputate, tortor quam ultricies neque, eget dignissim elit urna a metus. Aliquam sed quam dui, id lacinia nunc. <a href="#">read more</a></p>
-							</div>
-							<img src="images/mac-img.png" alt="" />
-						</li>
-					</ul>
+						<li
 				</div>
 				<!-- end of slider -->
 
@@ -180,7 +172,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 					<div class="col">
 						<h3>欢迎参加我们的项目</h3>
-						<img src="images/col-img.png" alt="" class="left"/>
+						kllklages/col-img.png" alt="" class="left"/>
 						<h5>此项目完全开源可以在github上找到我们的项目. </h5>
 						<div class="cl">&nbsp;</div>
 						<p>欢迎大家参加我们开发的项目，为了使之跟符合大众的要求无论您是否会编程只要你有好的想法、建议或者要求都可以加入我们.请发送你的建议到<a href="#">15303604198@163.com</a> <br /></p>
