@@ -16,8 +16,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>问卷管理系统</title>
+<meta http-equ
 <link type="text/css" rel="stylesheet" href="/vote/view/css/main.css" />
 <script type="text/javascript">
 //新建题目
@@ -34,8 +33,6 @@ function delQues(seq) {
 }
 	
 //返回
-function back() {
-	window.location.href="./wjList.jsp";
 }
 </script>
 </head>
@@ -45,8 +42,7 @@ function back() {
 				<td valign="top">
 					<table class="table">
 						<tr>
-							<td width="35" rowspan="2" valign="top"></td>
-							<td>
+							<td 
 								<table class="table">
 									<tr>
 										<td colspan="2">
